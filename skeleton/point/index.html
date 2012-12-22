@@ -1,4 +1,5 @@
-/* <copyright>
+<!DOCTYPE html>
+<!-- <copyright>
 Copyright (c) 2012, Motorola Mobility LLC.
 All Rights Reserved.
 
@@ -27,54 +28,22 @@ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
 CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
-</copyright> */
- 
-.montage-Toggle {
-    box-sizing: border-box;
-    font-size: 12px;
-    position: relative;
-    display: inline-block;
-    width: 4em;
-    height: 2em;
-    border-radius: 3px;
-    vertical-align: middle;
-    border: 1px solid #b3b3b3;
-    background: #d9d9d9;
-    cursor: pointer;
-    -webkit-transition: background-color .2s cubic-bezier(.5,.15,.2,1);
-}
-
-.montage-Toggle-thumb {
-    box-sizing: border-box;
-    position: absolute;
-    left: 0;
-    display: inline-block;
-    margin: -1px;
-    width: 2em;
-    height: inherit;
-    border-radius: inherit;
-    border: 1px solid #b3b3b3;
-    background: #f2f2f2;
-    -webkit-transition: -webkit-transform .2s cubic-bezier(.5,.15,.2,1);
-}
-
-/* States */
-.montage-Toggle:hover > .montage-Toggle-thumb {
-    background-color: #ffffff;
-}
-
-.montage-Toggle:active > .montage-Toggle-thumb {
-    background-color: #e5e5e5;
-}
-
-.montage-Toggle:focus {
-    border-color: #7f7f7f;
-}
-
-.montage-Toggle.isChecked {
-    background: hsl(0,0%,70%);
-}
-
-.montage-Toggle.isChecked > .montage-Toggle-thumb {
-    -webkit-transform: translate3d(100%,0,0);
-}
+</copyright> -->
+<html>
+<head>
+    <title>Montage Point - Overview</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="assets/style/base.css">
+    <script src="node_modules/montage/montage.js" data-package="."></script>
+    <script type="text/montage-serialization">
+        {
+            "owner": {
+                "prototype": "montage/ui/loader.reel"
+            }
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>

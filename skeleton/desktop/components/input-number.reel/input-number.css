@@ -1,0 +1,45 @@
+.montage-InputNumber {
+    font-size: 12px;
+    position: relative;
+    display: inline-block;
+    width: 5em;
+    margin-right: 2.5em;
+}
+
+.montage-InputNumber-input {
+    font-size: inherit;
+    width: 5em;
+    vertical-align: middle;
+    border-radius: 3px 0 0 3px;
+}
+
+.montage-InputNumber-input:hover {
+    border-color: #cccccc;
+}
+
+.montage-InputNumber-input:focus {
+    border-color: #7f7f7f;
+}
+
+.montage-InputNumber-plus,
+.montage-InputNumber-minus {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 2.5em;
+    height: 1.25em;
+    right: -2.5em;
+    line-height: 0;
+}
+
+.montage-InputNumber-plus {
+    border-width: 1px 1px 0 0;
+    border-radius: 0 3px 0 0;
+    top: 0px;
+}
+
+.montage-InputNumber-minus {
+    border-width: 1px 1px 1px 0;
+    border-radius: 0 0 3px 0;
+    bottom: 0px;
+}

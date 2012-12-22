@@ -1,6 +1,5 @@
 {
     "owner": {
-        "prototype": "ui/main.reel",
         "properties": {
             "element": {"#": "main"}
         }
@@ -9,25 +8,22 @@
     
     
     "inputNumber": {
-        "prototype": "montage/lab/skeleton/point/input-number.reel",
+        "prototype": "components/input-number.reel",
         "properties": { "element": {"#": "inputNumber"} } },
     "inputNumberSkin": {
-        "prototype": "montage/lab/skeleton/point/input-number.reel",
+        "prototype": "components/input-number.reel",
         "properties": { "element": {"#": "inputNumberSkin"} } },
     
     
     "toggle": {
-        "prototype": "montage/lab/skeleton/point/toggle.reel",
+        "prototype": "components/toggle.reel",
         "properties": { "element": {"#": "toggle"} } },
     "toggleSkin": {
-        "prototype": "montage/lab/skeleton/point/toggle.reel",
+        "prototype": "components/toggle.reel",
         "properties": { "element": {"#": "toggleSkin"} } },
     
     
-    
-    
-    
-    
+        
     "button": {
         "prototype": "montage/ui/button.reel",
         "properties": { "element": {"#": "button"} } },
@@ -95,7 +91,5 @@
     "progressSkin": {
         "prototype": "montage/ui/progress.reel",
         "properties": { "element": {"#": "progressSkin"} } }
-    
-
     
 }
