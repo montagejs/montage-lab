@@ -1,3 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Homenaje);
+
+body {
+    margin: 0;
+    color: #444;
+    font: 13px/1.231 sans-serif;
+	background-color: hsl(200,0%,90%);
+}
+
+a {
+    font-size: 14px;
+    text-decoration: none;
+    color: hsl(0,0%,40%);
+}
+a:hover { color: hsl(0,0%,60%); }
+a:active { color: hsl(0,0%,20%); }
+
+
 h1 {
     padding-right: 1em;
     margin: 50px 0;
@@ -54,9 +72,9 @@ th {
 td {
     text-align: center;
     padding: 20px;
-    border-top: 1px solid hsla(0,0%,0%,.1);
+    border-top: 1px solid hsla(0,0%,0%,.06);
 }
 
-td:nth-child(2) {
-    background: hsl(0,0%,92%);
-}
+td:nth-child(1) { background: hsl(0,0%,86%); }
+td:nth-child(3) { background: hsl(0,0%,96%); }
+td:nth-child(4) { background: hsl(0,0%,20%); }

@@ -16,68 +16,48 @@
     <table>
         <thead>
             <tr>
-                <th>montage/ui/<span class="hl">native</span>/</th>
                 <th></th>
                 <th>Skeleton</th>
-                <th>+ <span class="hl">Skin</span></th>
+                <th>+ <span class="hl">Light</span> Skin</th>
+                <th>+ <span class="hl">Dark</span> Skin</th>
             </tr>
         </thead>
         <tbody>
                         
             <tr>
+                <td><a href="https://github.com/montagejs/montage-lab/tree/master/skeleton/mobile/components/button.reel">button</a></td>
+                <td><button data-montage-id="button1">Button</button></td>
+                <td><button data-montage-id="button2">Button</button></td>
+                <td><button data-montage-id="button3">Button</button></td>
+            </tr>
+            
+            <tr>
+                <td><a href="https://github.com/montagejs/montage-lab/tree/master/skeleton/mobile/components/input-checkbox.reel">input-checkbox</a></td>
+                <td><input data-montage-id="inputCheckbox1" type="checkbox" checked></td>
+                <td><input data-montage-id="inputCheckbox2" type="checkbox" checked></td>
+                <td><input data-montage-id="inputCheckbox3" type="checkbox" checked></td>
+            </tr>
+            
+            <tr>
+                <td><a href="https://github.com/montagejs/montage-lab/tree/master/skeleton/mobile/components/input-radio.reel">input-radio</a></td>
                 <td>
-                    <button>Button</button>
+                    <input data-montage-id="inputRadio1A" name="inputRadio1" type="radio" checked>
+                    <input data-montage-id="inputRadio1B" name="inputRadio1" type="radio">
                 </td>
                 <td>
-                    button
+                    <input data-montage-id="inputRadio2A" name="inputRadio2" type="radio" checked>
+                    <input data-montage-id="inputRadio2B" name="inputRadio2" type="radio">
                 </td>
                 <td>
-                    <button data-montage-id="button">Button</button>
-                </td>
-                <td>
-                    <button data-montage-id="buttonSkin" class="skin">Button</button>
+                    <input data-montage-id="inputRadio3A" name="inputRadio3" type="radio" checked>
+                    <input data-montage-id="inputRadio3B" name="inputRadio3" type="radio">
                 </td>
             </tr>
             
             <tr>
+                <td><a href="https://github.com/montagejs/montage-lab/tree/master/skeleton/mobile/components/select.reel">select</a></td>
                 <td>
-                    <input type="checkbox" checked />
-                </td>
-                <td>
-                    input-checkbox
-                </td>
-                <td>
-                    <input type="checkbox" checked data-montage-id="inputCheckbox" />
-                </td>
-                <td>
-                    <input type="checkbox" checked data-montage-id="inputCheckboxSkin" class="skin" />
-                </td>
-            </tr>
-            
-            <tr>
-                <td>
-                    <input type="radio" name="radio-native" checked />
-                    <input type="radio" name="radio-native" />
-                    <input type="radio" name="radio-native" />
-                </td>
-                <td>
-                    input-radio
-                </td>
-                <td>
-                    <input type="radio" name="radio-montage" data-montage-id="inputRadio1" checked />
-                    <input type="radio" name="radio-montage" data-montage-id="inputRadio2" />
-                    <input type="radio" name="radio-montage" data-montage-id="inputRadio3" />
-                </td>
-                <td>
-                    <input type="radio" name="radio-montage" data-montage-id="inputRadio1Skin" checked class="skin" />
-                    <input type="radio" name="radio-montage" data-montage-id="inputRadio2Skin" class="skin" />
-                    <input type="radio" name="radio-montage" data-montage-id="inputRadio3Skin" class="skin" />
-                </td>
-            </tr>
-            
-            <tr>
-                <td>
-                    <select>
+                    <select data-montage-id="select1">
                         <option value="AZ">Arizona</option>
                         <option value="AL">Alabama</option>
                         <option value="CA">California</option>
@@ -86,10 +66,7 @@
                     </select>
                 </td>
                 <td>
-                    select
-                </td>
-                <td>
-                    <select data-montage-id="select">
+                    <select data-montage-id="select2">
                         <option value="AZ">Arizona</option>
                         <option value="AL">Alabama</option>
                         <option value="CA">California</option>
@@ -98,7 +75,7 @@
                     </select>
                 </td>
                 <td>
-                    <select data-montage-id="selectSkin" class="skin">
+                    <select data-montage-id="select3">
                         <option value="AZ">Arizona</option>
                         <option value="AL">Alabama</option>
                         <option value="CA">California</option>
@@ -109,63 +86,31 @@
             </tr>
             
             <tr>
-                <td>
-                    <input type="text" placeholder="Text Input" />
-                </td>
-                <td>
-                    input-text
-                </td>
-                <td>
-                    <input data-montage-id="inputText" type="text" placeholder="Text Input" />
-                </td>
-                <td>
-                    <input data-montage-id="inputTextSkin" type="text" placeholder="Text Input" class="skin" />
-                </td>
+                <td><a href="https://github.com/montagejs/montage-lab/tree/master/skeleton/mobile/components/input-text.reel">input-text</a></td>
+                <td><input data-montage-id="inputText1" type="text" placeholder="Text Input"></td>
+                <td><input data-montage-id="inputText2" type="text" placeholder="Text Input"></td>
+                <td><input data-montage-id="inputText3" type="text" placeholder="Text Input"></td>
             </tr>
             
             <tr>
-                <td>
-                    <textarea placeholder="Textarea"></textarea>
-                </td>
-                <td>
-                    textarea
-                </td>
-                <td>
-                    <textarea data-montage-id="textarea" placeholder="Textarea"></textarea>
-                </td>
-                <td>
-                    <textarea data-montage-id="textareaSkin" placeholder="Textarea" class="skin"></textarea>
-                </td>
+                <td><a href="https://github.com/montagejs/montage-lab/tree/master/skeleton/mobile/components/textarea.reel">textarea</a></td>
+                <td><textarea data-montage-id="textarea1" placeholder="Textarea"></textarea></td>
+                <td><textarea data-montage-id="textarea2" placeholder="Textarea"></textarea></td>
+                <td><textarea data-montage-id="textarea3" placeholder="Textarea"></textarea></td>
             </tr>
                         
             <tr>
-                <td>
-                    <input type="range" value="50" min="0" max="100" /> 
-                </td>
-                <td>
-                    input-range
-                </td>
-                <td>
-                    <input type="range" data-montage-id="inputRange" value="50" min="0" max="100" />
-                </td>
-                <td>
-                    <input type="range" data-montage-id="inputRangeSkin" value="50" min="0" max="100" class="skin" />
-                </td>
+                <td><a href="https://github.com/montagejs/montage-lab/tree/master/skeleton/mobile/components/input-range.reel">input-range</a></td>
+                <td><input data-montage-id="inputRange1" value="50" min="0" max="100" type="range"></td>
+                <td><input data-montage-id="inputRange2" value="50" min="0" max="100" type="range"></td>
+                <td><input data-montage-id="inputRange3" value="50" min="0" max="100" type="range"></td>
             </tr>
             
             <tr>
-                <td>
-                    <progress value="30" max="100" />
-                </td>
-                <td>
-                    progress
-                </td>
-                <td>
-                    <progress data-montage-id="progress" value="30" max="100" />
-                </td>
-                <td>
-                    <progress data-montage-id="progressSkin" value="30" max="100" class="skin" />
-                </td>
+                <td><a href="https://github.com/montagejs/montage-lab/tree/master/skeleton/mobile/components/progress.reel">progress</a></td>
+                <td><progress data-montage-id="progress1" value="30" max="100"></td>
+                <td><progress data-montage-id="progress2" value="30" max="100"></td>
+                <td><progress data-montage-id="progress3" value="30" max="100"></td>
             </tr>
                         
         </tbody>
@@ -177,42 +122,26 @@
     <table>
         <thead>
             <tr>
-                <th>montage/ui/<span class="hl">native</span>/</th>
                 <th></th>
-                <th>montage/<span class="hl">lab/skeleton/touch</span>/</th>
-                <th>+ <span class="hl">Skin</span></th>
+                <th>Skeleton</th>
+                <th>+ <span class="hl">Light</span> Skin</th>
+                <th>+ <span class="hl">Dark</span> Skin</th>
             </tr>
         </thead>
         <tbody>
                         
             <tr>
-                <td>
-                    <input type="number" value="0" />
-                </td>
-                <td>
-                    input-number
-                </td>
-                <td>
-                    <input data-montage-id="inputNumber" type="number" value="0" />
-                </td>
-                <td>
-                    <input data-montage-id="inputNumberSkin" class="skin" type="number" value="0" />
-                </td>
+                <td><a href="https://github.com/montagejs/montage-lab/tree/master/skeleton/mobile/components/input-number.reel">input-number</a></td>
+                <td><input data-montage-id="inputNumber1" type="number" value="0"></td>
+                <td><input data-montage-id="inputNumber2" type="number" value="0"></td>
+                <td><input data-montage-id="inputNumber3" type="number" value="0"></td>
             </tr>
             
             <tr>
-                <td>
-                    
-                </td>
-                <td>
-                    toggle
-                </td>
-                <td>
-                    <input type="checkbox" data-montage-id="toggle" />
-                </td>
-                <td>
-                    <input type="checkbox" data-montage-id="toggleSkin" class="skin" />
-                </td>
+                <td><a href="https://github.com/montagejs/montage-lab/tree/master/skeleton/mobile/components/toggle.reel">toggle</a></td>
+                <td><input data-montage-id="toggle1" type="checkbox"></td>
+                <td><input data-montage-id="toggle2" type="checkbox"></td>
+                <td><input data-montage-id="toggle3" type="checkbox"></td>
             </tr>
                         
         </tbody>
