@@ -23,6 +23,7 @@ h1 {
     line-height: 60px;
     color: #aaa;
     font-size: 50px;
+    font-weight: normal;
     font-family: 'Homenaje', sans-serif ;
 }
 
@@ -67,12 +68,17 @@ th {
     font-family: 'Homenaje', sans-serif ;
     font-size: 1.8em;
     font-weight: normal;
+    padding: 10px;
 }
 
 td {
     text-align: center;
     padding: 20px;
     border-top: 1px solid hsla(0,0%,0%,.06);
+}
+
+td:nth-child(4) {
+    border-top: 1px solid hsla(0,0%,100%,.06);
 }
 
 td:nth-child(1) { background: hsl(0,0%,86%); }
