@@ -33,7 +33,7 @@
 /* Light ------------------------------------ */
 
 [data-montage-skin="light"] .montage-Button {
-    color: hsla(0,0%,0%,.6);
+    color: hsla(0,0%,0%,.7);
     text-shadow: 0 1px 0 hsla(0,0%,100%,.5);
     border-color: hsl(0,0%,80%);
     background-image: -webkit-linear-gradient(top, hsl(0,0%,96%), hsl(0,0%,92%) );
@@ -50,7 +50,7 @@
 /* Dark ------------------------------------ */
 
 [data-montage-skin="dark"] .montage-Button {
-    color: hsla(0,0%,100%,.4);
+    color: hsla(0,0%,100%,.5);
     text-shadow: 0 1px 0 hsla(0,0%,0%,.2);
     border-color: hsl(0,0%,15%);
     background-image: -webkit-linear-gradient(top, hsl(0,0%,30%), hsl(0,0%,24%) );
