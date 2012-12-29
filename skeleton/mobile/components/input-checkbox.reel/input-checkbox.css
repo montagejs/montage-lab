@@ -39,6 +39,7 @@
 /* Style for Touch */
 .montage-InputCheckbox {
     font-size: 16px;
+    -webkit-tap-highlight-color: transparent;
 }
 
 
