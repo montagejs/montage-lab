@@ -11,10 +11,6 @@
     background-color: #fff;
 }
 
-.montage-InputText:hover {
-    border-color: #ccc;
-}
-
 .montage-InputText:focus {
     border-color: #7f7f7f;
 }
@@ -32,12 +28,44 @@
 .montage-InputText[readonly] {
     background-color: #e5e5e5;
 }
-.montage-InputText[readonly]:hover {
-    border-color: #b3b3b3;
-}
 
 
 /* Style for Touch */
 .montage-InputText {
     font-size: 14px;
+}
+
+
+/* Light ------------------------------------ */
+
+[data-montage-skin="light"] .montage-InputText {
+    color: hsla(0,0%,0%,.7);
+    text-shadow: 0 1px 0 hsla(0,0%,100%,.5);
+    border-color: hsl(0,0%,80%);
+    background-image: -webkit-linear-gradient(top, hsl(0,0%,96%), hsl(0,0%,98%) );
+    box-shadow: inset 0 1px 2px hsla(0,0%,0%,.05), 0 1px 0 hsla(0,0%,100%,.6);
+}
+
+[data-montage-skin="light"] .montage-InputText:focus {
+    border-color: hsla(0,0%,70%,1);
+    background-image: -webkit-linear-gradient(top, hsl(0,0%,92%), hsl(0,0%,94%) );
+    box-shadow: inset 0 1px 3px hsla(0,0%,0%,.1), 0 1px 0 hsla(0,0%,100%,.6);
+}
+
+
+/* Dark ------------------------------------ */
+
+[data-montage-skin="dark"] .montage-InputText {
+    color: hsla(0,0%,100%,.5);
+    text-shadow: 0 1px 0 hsla(0,0%,0%,.2);
+    border-color: hsl(0,0%,15%);
+    background-image: -webkit-linear-gradient(top, hsl(0,0%,28%), hsl(0,0%,30%) );
+    box-shadow: inset 0 1px 2px hsla(0,0%,0%,.1), 0 1px 0 hsla(0,0%,100%,.1);
+}
+
+[data-montage-skin="dark"] .montage-InputText:focus {
+    color: hsla(0,0%,100%,.7);
+    border-color: hsl(0,0%,15%);
+    background-image: -webkit-linear-gradient(top, hsl(0,0%,26%), hsl(0,0%,28%) );
+    box-shadow: inset 0 1px 3px hsla(0,0%,0%,.3), 0 1px 0 hsla(0,0%,100%,.1);
 }
