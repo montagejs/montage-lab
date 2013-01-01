@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Homenaje);
+@import url(http://fonts.googleapis.com/css?family=Inder);
 
 body {
     margin: 0;
@@ -24,7 +24,7 @@ h1 {
     color: #aaa;
     font-size: 50px;
     font-weight: normal;
-    font-family: 'Homenaje', sans-serif ;
+    font-family: 'Inder', sans-serif;
 }
 
 h1 .logo {
@@ -49,7 +49,7 @@ h2 {
     color: #aaa;
     font-size: 30px;
     line-height: 1.5;
-    font-family: 'Homenaje', sans-serif;
+    font-family: 'Inder', sans-serif;
     border-bottom: 1px dashed hsla(0,0%,0%,.1);
 }
 
@@ -65,7 +65,7 @@ table {
 
 th {
     color: #aaa;
-    font-family: 'Homenaje', sans-serif ;
+    font-family: 'Inder', sans-serif ;
     font-size: 1.8em;
     font-weight: normal;
     padding: 10px;
