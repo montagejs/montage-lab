@@ -18,7 +18,7 @@ a:active { color: hsl(0,0%,20%); }
 
 h1 {
     padding-right: 1em;
-    margin: 50px 0;
+    margin: 50px 0 20px 0;
     text-align: center;
     line-height: 60px;
     color: #aaa;
@@ -29,10 +29,11 @@ h1 {
 
 h1 .logo {
     vertical-align: middle;
-    width: 75px;
-    height: 60px;
-    margin: 0 20px;
-    background: url(../../assets/images/logo.png) no-repeat center center;
+    width: 100px;
+    height: 80px;
+    margin: 0;
+    background: url(../../assets/images/logo.svg) no-repeat center center;
+    background-size: cover;
 }
 
 h1 span {
