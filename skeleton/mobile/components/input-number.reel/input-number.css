@@ -1,23 +1,24 @@
 .montage-InputNumber {
-    font-size: 12px;
+    /font-size: 12px;
     position: relative;
     display: inline-block;
-    width: 5em;
-    margin-right: 2.5em;
+    /width: 5em;
+    /margin-right: 2.5em;
 }
-.montage-InputNumber > input {
+
+.montage-InputNumber > .montage-InputNumber-input {
     font-size: inherit;
-    width: 5em;
+    width: 3.6em;
     vertical-align: middle;
-    border-radius: 3px 0 0 3px;
+    /border-radius: 3px 0 0 3px;
 }
-.montage-InputNumber > input:hover {
-    border-color: #cccccc;
-}
-.montage-InputNumber > input:focus {
+
+.montage-InputNumber > .montage-InputNumber-input:focus {
     border-color: #7f7f7f;
 }
-.montage-InputNumber > button {
+
+.montage-InputNumber > .montage-InputNumber-plus,
+.montage-InputNumber > .montage-InputNumber-minus {
     position: absolute;
     margin: 0;
     padding: 0;
@@ -26,11 +27,13 @@
     right: -2.5em;
     line-height: 0;
 }
+
 .montage-InputNumber > .montage-InputNumber-plus {
     border-width: 1px 1px 0 0;
     border-radius: 0 3px 0 0;
     top: 0px;
 }
+
 .montage-InputNumber > .montage-InputNumber-minus {
     border-width: 1px 1px 1px 0;
     border-radius: 0 0 3px 0;
@@ -45,12 +48,19 @@
     width: auto;
     margin: 0;
 }
-.montage-InputNumber > input {
+
+.montage-InputNumber > .montage-InputNumber-input {
     font-size: inherit;
     border-radius: 0;
     text-align: center;
 }
-.montage-InputNumber > button {
+
+.montage-InputNumber-input::-webkit-inner-spin-button {
+    display: none;
+}
+
+.montage-InputNumber > .montage-InputNumber-plus,
+.montage-InputNumber > .montage-InputNumber-minus {
     position: static;
     height: 2.5em;
     top: auto;

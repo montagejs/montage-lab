@@ -12,5 +12,6 @@ Add a symlink to Montage in node_mudules/
 ![Select](https://raw.github.com/montagejs/montage-lab/master/skeleton/mobile/components/select.reel/screenshot.png)
 ![Text](https://raw.github.com/montagejs/montage-lab/master/skeleton/mobile/components/input-text.reel/screenshot.png)
 ![Textarea](https://raw.github.com/montagejs/montage-lab/master/skeleton/mobile/components/textarea.reel/screenshot.png)
+![Number](https://raw.github.com/montagejs/montage-lab/master/skeleton/mobile/components/input-number.reel/screenshot.png)
 ![Range](https://raw.github.com/montagejs/montage-lab/master/skeleton/mobile/components/input-range.reel/screenshot.png)
 ![Progress](https://raw.github.com/montagejs/montage-lab/master/skeleton/mobile/components/progress.reel/screenshot.png)
