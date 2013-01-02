@@ -10,6 +10,10 @@
     "button2": { "prototype": "components/button.reel", "properties": { "element": {"#": "button2"} } },
     "button3": { "prototype": "components/button.reel", "properties": { "element": {"#": "button3"} } },
     
+    "toggle1": { "prototype": "components/toggle.reel", "properties": { "element": {"#": "toggle1"} } },
+    "toggle2": { "prototype": "components/toggle.reel", "properties": { "element": {"#": "toggle2"} } },
+    "toggle3": { "prototype": "components/toggle.reel", "properties": { "element": {"#": "toggle3"} } },
+    
     "inputCheckbox1": { "prototype": "components/input-checkbox.reel", "properties": { "element": {"#": "inputCheckbox1"} } },
     "inputCheckbox2": { "prototype": "components/input-checkbox.reel", "properties": { "element": {"#": "inputCheckbox2"} } },
     "inputCheckbox3": { "prototype": "components/input-checkbox.reel", "properties": { "element": {"#": "inputCheckbox3"} } },
@@ -50,10 +54,6 @@
     
     "inputNumber1": { "prototype": "components/input-number.reel", "properties": { "element": {"#": "inputNumber1"} } },
     "inputNumber2": { "prototype": "components/input-number.reel", "properties": { "element": {"#": "inputNumber2"} } },
-    "inputNumber3": { "prototype": "components/input-number.reel", "properties": { "element": {"#": "inputNumber3"} } },
-    
-    "toggle1": { "prototype": "components/toggle.reel", "properties": { "element": {"#": "toggle1"} } },
-    "toggle2": { "prototype": "components/toggle.reel", "properties": { "element": {"#": "toggle2"} } },
-    "toggle3": { "prototype": "components/toggle.reel", "properties": { "element": {"#": "toggle3"} } }
+    "inputNumber3": { "prototype": "components/input-number.reel", "properties": { "element": {"#": "inputNumber3"} } }
         
 }
