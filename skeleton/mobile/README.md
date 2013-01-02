@@ -5,8 +5,6 @@ Add a symlink to Montage in node_mudules/
 
 ### Components
 
-[List](https://raw.github.com/montagejs/montage-lab/master/skeleton/mobile/components/)
-
 ![Button](https://raw.github.com/montagejs/montage-lab/master/skeleton/mobile/components/button.reel/screenshot.png)
 ![Toggle](https://raw.github.com/montagejs/montage-lab/master/skeleton/mobile/components/toggle.reel/screenshot.png)
 ![Checkbox](https://raw.github.com/montagejs/montage-lab/master/skeleton/mobile/components/input-checkbox.reel/screenshot.png)
