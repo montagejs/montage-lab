@@ -63,9 +63,16 @@
     "progress3": { "prototype": "components/progress.reel", "properties": { "element": {"#": "progress3"} } },
 
 
+
     "map1": { "prototype": "components/map.reel", "properties": { "element": {"#": "map1"} } },
     "map2": { "prototype": "components/map.reel", "properties": { "element": {"#": "map2"} } },
-    "map3": { "prototype": "components/map.reel", "properties": { "element": {"#": "map3"} } }
+    "map3": { "prototype": "components/map.reel", "properties": { "element": {"#": "map3"} } },
+
+
+
+    "header1": { "prototype": "components/header.reel", "properties": { "element": {"#": "header1"} } },
+    "header2": { "prototype": "components/header.reel", "properties": { "element": {"#": "header2"} } },
+    "header3": { "prototype": "components/header.reel", "properties": { "element": {"#": "header3"} } }
 
         
 }
