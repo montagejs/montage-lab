@@ -57,11 +57,15 @@
     "inputRange1": { "prototype": "components/input-range.reel", "properties": { "element": {"#": "inputRange1"} } },
     "inputRange2": { "prototype": "components/input-range.reel", "properties": { "element": {"#": "inputRange2"} } },
     "inputRange3": { "prototype": "components/input-range.reel", "properties": { "element": {"#": "inputRange3"} } },
-
-    
+   
     "progress1": { "prototype": "components/progress.reel", "properties": { "element": {"#": "progress1"} } },
     "progress2": { "prototype": "components/progress.reel", "properties": { "element": {"#": "progress2"} } },
-    "progress3": { "prototype": "components/progress.reel", "properties": { "element": {"#": "progress3"} } }
+    "progress3": { "prototype": "components/progress.reel", "properties": { "element": {"#": "progress3"} } },
+
+
+    "map1": { "prototype": "components/map.reel", "properties": { "element": {"#": "map1"} } },
+    "map2": { "prototype": "components/map.reel", "properties": { "element": {"#": "map2"} } },
+    "map3": { "prototype": "components/map.reel", "properties": { "element": {"#": "map3"} } }
 
         
 }
